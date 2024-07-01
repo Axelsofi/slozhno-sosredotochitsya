@@ -7,7 +7,8 @@
 		--text-color: #353430;
 		--main-font-family: "IBM Plex Mono", "monospace";
 		--main-font-size: 18px;
-		--accent-color: #353430;
+		--accent-color: #ff8dcb;
+                --link-color: #353430;
 		--title-shadow-color: #FF0070;
 		--title-color: #FFC2E6;
 		--subtitle-color: #353430;
@@ -27,11 +28,12 @@
 	--main-font-family: "IBM Plex Mono", "monospace";
 	--main-font-size: 18px;
 	--accent-color: #ff8dcb;
+        --link-color: #353430;
 	--title-shadow-color: #FF0070;
 	--title-color: #FFC2E6;
 	--subtitle-color: #353430;
 	--rec-visibility: hidden;
-  --brand-color: #353430;
+        --brand-color: #353430;
 	--section-text-color: #353430;
 	--button-color: var(--text-color, #353430);
 }

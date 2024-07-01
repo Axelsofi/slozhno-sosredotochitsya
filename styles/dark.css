@@ -25,6 +25,7 @@
 @media (prefers-color-scheme: dark) {
   .rec {
     display: block;
+    visibility: visible;
   }
 }
 

@@ -43,7 +43,6 @@
 .decorated::after,
 .decorated::before {
 	content: "";
-	z-index: -1;
 	position: absolute;
 	block-size: 25px;
 	inline-size: 25px;

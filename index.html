@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" href="images/mobile-icon.png" type="image/png"> 
   </head>
   <body class="page">
-    <header class="header decorated-zone">
+    <header class="header decorated">
       <span class="rec" aria-hidden="true">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
@@ -45,14 +45,12 @@
           </li>
         </ul>
       </nav>
-      <div class="header__text">
         <h1 class="header__title">no focus</h1>
         <p class="header__subtitle title-decor">
           Что делать, когда не можешь делать ничего<br />
           Или почему нам так сложно сконцентрироваться, особенно когда очень
           надо
         </p>
-      </div>
     </header>
     <main class="main">
       <section class="main__section main__semantic-difficult">
@@ -86,8 +84,9 @@
         </article>
       </section>
       <section class="main__section main__semantic-concentration">
-        <h2 class="main__section-title main__section-title-concentration">Что снижает концентрацию внимания?</h2>
-        <article class="main__section-block semantic-concentration__multitasking">
+       <h2 class="main__section-title main__section-title-concentration">Что снижает концентрацию внимания?</h2>
+       <ul class="ul__concentration">
+        <li class="li__concentartion"><article class="main__section-block semantic-concentration__multitasking">
           <h3 class="title-decor multitasking-title-concentration">Многозадачность</h3>
           <p class="main__section-text">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -98,6 +97,8 @@
             не давать ей отдохнуть.
           </p>
         </article>
+    </li>
+    <li class="li__concentartion">
         <article class="main__section-block food">
           <h3 class="title-decor title-food">Еда</h3>
           <p class="main__section-text">
@@ -109,6 +110,8 @@
             больше быстрых углеводов.
           </p>
         </article>
+    </li>
+    <li>
         <article class="main__section-block gadgets">
           <h3 class="title-decor title-gadgets">Гаджеты</h3>
           <p class="main__section-text">
@@ -121,6 +124,8 @@
             затем нужно, чтобы вернуться к работе.
           </p>
         </article>
+    </li>
+    </ul>
       </section>
       <section class="main__section semantic-gold-fish">
         <h2 class="main__section-title main__section-title-gold-fish">
@@ -214,7 +219,7 @@
           loading="lazy"/>
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer decorated">
       <h2 class="footer-title">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>

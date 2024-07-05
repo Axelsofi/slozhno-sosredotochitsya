@@ -161,10 +161,9 @@
 	line-height: 23.4px;
 }
 
-.main__section {
-	display: grid;
-	gap: 20px;
-	line-height: 23.4px;
+.ul__semantic-difficult {
+    display: grid;
+    gap: 20px;
 }
 
 .main__section-title {
@@ -289,26 +288,15 @@
 
 	.main__semantic-difficult {
 		display: grid;
-		grid-template-areas:
-			"title one one"
-			"title one one"
-			"title two two"
-			"title two two";
-		grid-template-columns: 236px 2fr;
+		grid-template-columns: 236px 1fr;
 		inline-size: 100%;
 	}
 
-	.main__section-title-difficult {
-		grid-area: title;
-	}
+.ul__semantic-difficult {
+    display: grid;
+    grid-template-rows: repeat(2, minmax(244px, 1fr));
 
-	.multitasking {
-		grid-area: one;
-	}
-
-	.dopamine {
-		grid-area: two;
-	}
+}
 
 	.rec,
 	.rec::after {
